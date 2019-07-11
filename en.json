@@ -3,5 +3,6 @@
     "phraseapp": "Hello Phrase App",
     "register_key": "Registration",
     "signin_key": "Sign in",
-    "logo": "Logo"
+    "logo": "Logo",
+    "string": "string"
   }
