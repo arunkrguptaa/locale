@@ -13,6 +13,12 @@ phraseapp:
       params:
         file_format: simple_json
         locale_id: 6ed80bfda18ddda3839d8d058efb43ec # the locale must exist remotely
+  push:
+    sources:
+    - file: ./fr.json
+      params:
+        file_format: simple_json
+        locale_id: 9896dda641bec268ced0836f363d3151 # the locale must exist remotely
   pull:
     targets:
     - file: ./en.json
@@ -25,3 +31,9 @@ phraseapp:
       params:
         file_format: simple_json
         locale_id: 6ed80bfda18ddda3839d8d058efb43ec # the locale must exist remotely
+  pull:
+    targets:
+    - file: ./fr.json
+      params:
+        file_format: simple_json
+        locale_id: 9896dda641bec268ced0836f363d3151 # the locale must exist remotely
