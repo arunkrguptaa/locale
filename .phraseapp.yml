@@ -1,0 +1,15 @@
+phraseapp:
+  access_token: f948760fb11389782913561df5413763398eecd6dd49f222246c3e4690c13563
+  project_id: a34cf18aa87ce4efb00884e659ff730f
+  push:
+    sources:
+    - file: ./en.json
+      params:
+        file_format: simple_json
+        locale_id: 0ecad18e8b02ac5740a080a5e97f4b77 # the locale must exist remotely
+  pull:
+    targets:
+    - file: ./en.json
+      params:
+        file_format: simple_json
+        locale_id: 0ecad18e8b02ac5740a080a5e97f4b77 # the locale must exist remotely
